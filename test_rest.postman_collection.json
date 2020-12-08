@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "b598cd7f-4530-49a1-889d-39f69bb1cfaf",
+		"name": "test_rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/auto/fw1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"max_speed\" : 280,\n    \"distance\" : 400,\n    \"handler\" : \"Auto Motors\",\n    \"stock\" : \"Germany\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/auto/fw1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auto",
+						"fw1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/stock",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/auto/f1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"max_speed\" : 290,\n    \"distance\" : 400,\n    \"handler\" : \"Auto Motors\",\n    \"stock\" : \"Germany\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/auto/f1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auto",
+						"f1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/auto/f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/auto/f",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auto",
+						"f"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
