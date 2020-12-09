@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "33bd4514-f2ae-41bb-9a4e-49e6f0a4677e",
+		"name": "new_test_rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test_auth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\" : \"password1\",\n    \"username\" :\"user1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/stock",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/stock",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/auto/f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\" : \"password1\",\n    \"username\" :\"user1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/auto/f",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auto",
+						"f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/auto/f",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"max_speed\" : 280,\n    \"distance\" : 400,\n    \"handler\" : \"Auto Motors\",\n    \"stock\" : \"Germany\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/auto/f",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auto",
+						"f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/auto/f",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"max_speed\" : 290,\n    \"distance\" : 400,\n    \"handler\" : \"Auto Motors\",\n    \"stock\" : \"Germany\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/auto/f",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auto",
+						"f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/auto/f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/auto/f",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auto",
+						"f"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
